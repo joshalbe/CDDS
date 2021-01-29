@@ -1,2 +1,4 @@
 ﻿  Main.cpp
-  CDDS.vcxproj -> C:\Users\s208068\source\repos\CDDS\CDDS\Debug\CDDS.exe
+C:\Users\s208068\source\repos\CDDS\CDDS\CDDS\Main.cpp(62,13): error C2672: 'add': no matching overloaded function found
+C:\Users\s208068\source\repos\CDDS\CDDS\CDDS\Main.cpp(62,43): error C2977: 'add': too many template arguments
+C:\Users\s208068\source\repos\CDDS\CDDS\CDDS\Main.cpp(24): message : see declaration of 'add'

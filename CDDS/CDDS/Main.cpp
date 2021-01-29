@@ -1,4 +1,5 @@
 #include <iostream>
+#include "ShopKeep.h"
 
 //Create a function that will sort an array of integers using bubble sort
 //Print the array before and after it's sorted
@@ -17,6 +18,12 @@ void bubbleSort(int arr[], int length)
 			}
 		}
 	}
+}
+
+template <typename T>
+T add(T lhs, T rhs) 
+{
+	return lhs + rhs;
 }
 
 void print(int array[], int length) 
@@ -51,4 +58,8 @@ int main()
 
 	//Print sorted array
 	print(exampleArr, 5);
+
+	auto sum = add<int, int>(3.5656f, 3.6454f);
+
+	ShopKeep<int, 5> potionSellah = ShopKeep<int, 5>();
 }
